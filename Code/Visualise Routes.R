@@ -1,6 +1,6 @@
 library(ggmap)
 library(dplyr)
-dataset <- read.csv('~/Council/CRU Bluetooth/Route visualisation test.csv')
+dataset <- read.csv()
 dataset <- arrange(dataset, Corridor, index)
 qmap(location = 'brisbane', zoom = 14, color = 'bw') +
   geom_path(data = dataset, aes(x = longitude, y = latitude, group = Corridor, colour = Corridor), size = 2)
