@@ -5,3 +5,7 @@ import shutil
 # COMMAND ----------
 
 print('This is first cell')
+
+# COMMAND ----------
+
+print('This is second cell')
