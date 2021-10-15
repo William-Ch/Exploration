@@ -21,3 +21,7 @@ print('This is 4th cell')
 # COMMAND ----------
 
 print('This is 5th cell')
+
+# COMMAND ----------
+
+print('This is 6th cell')
